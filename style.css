@@ -10,21 +10,33 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 52px;
-  color: #00f;
-  margin: 0;
+.logo {
+    width: 76px;
+    height: 20px;
+    font-family: 700;
+    font-size: 35px;
+    line-height: 20px;
+    color: #6070ff;
 }
 
-h2 {
+h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin: 0;
+  width: 327px;
+  height: 150px;
 }
+
+/* h2 {
+    padding: 25px 20px 20px 20px;
+    width: 117px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+} */
 
 p {
   font-weight: 400;
@@ -37,9 +49,10 @@ p {
   background-color: #fff;
   cursor: pointer;
   width: 45px;
+  height: 45px;
 }
 
-.header-wrapper {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +64,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 90vh;
+  min-height: calc(100vh - 81px);
   background-image: url("images/header-shapes\ mobile.png");
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -76,11 +89,18 @@ p {
   height: 146px;
 }
 
+.social-media {
+    padding: 0;
+}
+
 .social-media a {
-  color: #0a23ff;
-  padding: 25px 20px 20px 20px;
-  width: 117px;
-  height: 24px;
+    padding: 10px 20px 20px 20px;
+    width: 117px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6070ff;
 }
 
 .social-icons {
