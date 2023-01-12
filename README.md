@@ -120,7 +120,7 @@ git clone https://github.com/theodoku/Hello_Project
 
 - GitHub: [@githubhandle](https://github.com/theodoku)
 - Twitter: [@twitterhandle](https://twitter.com/dok_theo)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/Theophilus Doku)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Theophilusdoku)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -28,16 +28,6 @@ h1 {
   height: 150px;
 }
 
-/* h2 {
-    padding: 25px 20px 20px 20px;
-    width: 117px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-} */
-
 p {
   font-weight: 400;
   font-size: 16px;
@@ -49,7 +39,6 @@ p {
   background-color: #fff;
   cursor: pointer;
   width: 45px;
-  height: 45px;
 }
 
 .header {
@@ -89,9 +78,9 @@ p {
   height: 146px;
 }
 
-.social-media {
+/* .social-media {
     padding: 0;
-}
+} */
 
 .social-media a {
     padding: 10px 20px 20px 20px;
