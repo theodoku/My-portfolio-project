@@ -43,7 +43,6 @@ p {
   line-height: 24px;
 }
 
-
 .menu_btn {
   border: none;
   background-color: #fff;
@@ -150,6 +149,7 @@ p {
   align-items: center;
   padding: 0;
   gap: 12px;
+
   /* height: 32px; */
 }
 
@@ -257,6 +257,7 @@ img.dot {
   flex-direction: row;
   align-items: center;
   padding: 3px;
+
   /* gap: 10px; */
   width: 150px;
   height: 48px;
@@ -295,23 +296,6 @@ img.dot {
   cursor: pointer;
 }
 
-.btn:hover {
-  background: #6070ff;
-  color: white;
-  cursor: pointer;
-}
-
-.btn:active {
-  background: navy;
-  color: #fff;
-  cursor: pointer;
-}
-
-.btn:disabled {
-  background: #fff;
-  cursor: pointer;
-}
-
 .about {
   min-height: 120vh;
   background-color: #fff;
@@ -320,17 +304,16 @@ img.dot {
 
 .A-title {
   color: #172b4d;
-  padding: 50px 0px 0px 20px;
+  padding: 50px 0 0 20px;
   font-size: 32px;
 }
 
-.skill-sets{
+.skill-sets {
   display: flex;
   justify-content: space-around;
   height: 72px;
   align-items: center;
   margin-bottom: 12px;
-
 }
 
 .button-about {
@@ -353,12 +336,29 @@ img.dot {
   padding: 12px;
 }
 
+.btn:hover {
+  background: #6070ff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  background: navy;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #fff;
+  cursor: pointer;
+}
+
 .langTitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  width:205px;
-  height:24px;
+  width: 205px;
+  height: 24px;
 }
 
 .languages {
@@ -404,7 +404,7 @@ hr {
 #arrow {
   width: 10px;
   height: 20px;
-  margin-left: -25px ;
+  margin-left: -25px;
 }
 
 #drop {
