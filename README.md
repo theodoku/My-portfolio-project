@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  <h3><b>Theophilus'S Portfolio</b></h3>
+  <h3><b>Theophilus's Portfolio</b></h3>
 
 </div>
 
@@ -32,14 +32,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-Mobile-Setup] <a name="about-project"></a>
+# 📖 [My Portfolio-Project] <a name="about-project"></a>
 
 
-**[Portfolio-Mobile-Setup]** is a project to build  my portfolio by first of all setting up the mobile version.
+**[My Portfolio-Project]** is a project to build  my portfolio projects to showcase to the world.
 
 ## 🛠 Built With <a name="built-with"></a>
--HTML
--CSS
+- [HTML]
+- [CSS]
 <!-- 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -131,7 +131,6 @@ git clone https://github.com/theodoku/Hello_Project
 
 - [Desktop Version] **[new_feature_1]**
 - [Mobile Popup] **[new_feature_2]**
-- [Images of Projects] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,8 +159,8 @@ If you like this project please follow me on github and reach out on my handles.
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank MicroverseInc for:
--Figma template
--HTML & CSS Linters Setup
+ - [Figma template]
+- [HTML & CSS Linters Setup]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

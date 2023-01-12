@@ -295,6 +295,23 @@ img.dot {
   cursor: pointer;
 }
 
+.btn:hover {
+  background: #6070ff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  background: navy;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #fff;
+  cursor: pointer;
+}
+
 .about {
   min-height: 120vh;
   background-color: #fff;
@@ -305,8 +322,6 @@ img.dot {
   color: #172b4d;
   padding: 50px 0px 0px 20px;
   font-size: 32px;
-  font-weight: 700;
-  width: 295px;
 }
 
 .skill-sets{
@@ -395,5 +410,5 @@ hr {
 #drop {
   width: 20px;
   height: 10px;
-  margin-left: -38px;
+  margin-left: -33px;
 }
