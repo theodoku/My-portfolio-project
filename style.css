@@ -137,11 +137,15 @@ p {
 .project-name {
   color: #172b4d;
   margin-top: 12px;
-  font-size: 32px;
+  /* font-size: 32px; */
   line-height: 40px;
   font-weight: 700;
   width: 295px;
 }
+
+.p-title {
+  font-size: 32px;
+} 
 
 .p-info {
   display: flex;
@@ -149,8 +153,6 @@ p {
   align-items: center;
   padding: 0;
   gap: 12px;
-
-  /* height: 32px; */
 }
 
 ul li {
