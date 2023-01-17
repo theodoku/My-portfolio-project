@@ -418,7 +418,6 @@ hr {
 
 /* Contact form */
 
-
 .footer-wrapper {
   padding-top: 1%;
   width: 390px;
@@ -445,9 +444,8 @@ hr {
   text-align: center;
   color: #fff;
   margin-top: 100px;
-  margin-bottom: 12px
+  margin-bottom: 12px;
 }
-
 
 #form-container {
   display: flex;
