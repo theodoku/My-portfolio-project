@@ -510,3 +510,13 @@ button {
   border-radius: 8px;
   margin-top: 10px;
 }
+
+.contact-btn:hover {
+  background: #7a869a;
+  color: #fff;
+}
+
+.contact-btn:active {
+  background: #172b4d;
+  color: #fff;
+}
