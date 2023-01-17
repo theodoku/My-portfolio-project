@@ -332,7 +332,42 @@
                 that you need built or a project that needs coding. I’d love to help
                 with it
             </p>
-            
+            <form action="" id="form" method="Post">
+                <ul class="list">
+                  <li class="listInput">
+                    <label>
+                      <input
+                        type="text"
+                        name="Name"
+                        placeholder="Full Name"
+                        maxlength="30"
+                        required
+                    /></label>
+                  </li>
+                  <li class="listInput">
+                    <label>
+                      <input
+                        type="email"
+                        name="Email"
+                        placeholder="Email"
+                        required
+                      />
+                    </label>
+                  </li>
+                  <li class="listInput">
+                    <textarea
+                      name="Message"
+                      placeholder="Write your message here"
+                      maxlength="500"
+                      required
+                    ></textarea>
+                  </li>
+                  <div id="error"></div>
+                  <li class="button">
+                    <button type="submit" class="contact-btn">Get in touch</button>
+                  </li>
+                </ul>
+            </form> 
         </div>
     </footer>
 </body>
