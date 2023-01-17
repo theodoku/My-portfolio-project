@@ -415,3 +415,44 @@ hr {
   height: 10px;
   margin-left: -33px;
 }
+
+/* Contact form */
+
+
+.footer-wrapper {
+  padding-top: 1%;
+  width: 390px;
+  height: 800px;
+  background-image: url("images/contact-form-shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6070ff;
+  border-top-left-radius: 120px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.contact {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 12px
+}
+
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
