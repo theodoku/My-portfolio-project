@@ -456,3 +456,57 @@ hr {
   justify-content: center;
 }
 
+#text-footer {
+  width: 327px;
+  height: 102px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 28px;
+  padding-left: 24px;
+  margin-left: 5px;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 150px;
+  margin-top: 30px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  background: #fff;
+  border-color: #fff;
+}
+
+.contact-btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 150px;
+  height: 50px;
+  color: #396df2;
+  border-radius: 8px;
+  margin-top: 10px;
+}
