@@ -164,6 +164,11 @@ ul li {
   width: 100%;
 }
 
+.portfolio-pic2,
+.portfolio-pic4 {
+  width: 100%;
+}
+
 .company {
   font-weight: 600;
   font-size: 13px;
@@ -517,4 +522,123 @@ button {
 .contact-btn:active {
   background: #172b4d;
   color: #fff;
+}
+
+.nav_wrapper {
+  display: none;
+}
+
+/* ----MEDIA QUERIES SECTION---- */
+
+/* || DESKTOP VERSION */
+
+@media (min-width: 769px) {
+  .header {
+    padding: 15px 143px;
+    justify-content: space-around;
+  }
+
+  .menu_btn {
+    display: none;
+  }
+
+  .nav_wrapper {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 0;
+  }
+
+  .nav_item {
+    padding: 10px 12px;
+  }
+
+  .nav_link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .headline {
+    background-image: url('images/desktop_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 90vh;
+    padding: 22px;
+  }
+
+  .container {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  h1 {
+    width: auto;
+    margin: 0;
+  } 
+
+  p {
+    margin: 0;
+  }
+
+  .info {
+    width: auto;
+    margin-top: -20px;
+  }
+
+  .social-media  {
+    margin-top: -100px;
+  }
+
+  .logo {
+   
+  }
+
+  .cards {
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  .p-title {
+    margin-top: -46%;
+  }
+
+  .project-info {
+    margin-top: -130px;
+    margin-right: 200px;
+  }
+
+  .paragraph {
+    width: 496px;
+    height: 50px;
+  }
+
+  .portfolio-pic {
+    width: 544px;
+    height: 448px;
+  }
+  .portfolio-pic2,
+  .portfolio-pic4 {
+    width: 544px;
+    height: 448px;
+    /* float: right; */
+  }
+
+  .rev-2,
+  .rev-4 {
+    flex-direction: row-reverse;
+  }
 }
