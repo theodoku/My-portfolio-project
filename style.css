@@ -83,7 +83,17 @@ p {
   padding-left: 20px;
 }
 
-.info {
+.info-head1{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-left: 20px;
+  width: 327px;
+  height: 146px;
+}
+
+.info-head2{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -503,7 +513,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
+  display: grid;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
@@ -565,11 +575,11 @@ button {
 
   .headline {
     background-image: url('images/desktop_bg.png');
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     padding: 22px;
   }
 
@@ -589,17 +599,23 @@ button {
     margin: 0;
   }
 
-  .info {
+  .info-head1 {
     width: auto;
     margin-top: -20px;
   }
 
+  .info-head2 {
+    width: 447px;
+    height: 102px;
+    margin-left: -22px;
+  }
   .social-media  {
     margin-top: -100px;
   }
 
   .logo {
-   
+   font-size: x-large;
+   margin-left: -350px;
   }
 
   .cards {
@@ -613,12 +629,19 @@ button {
   }
 
   .p-title {
-    margin-top: -46%;
+    /* margin-top: -46%; */
+    margin-left: -5px;
   }
 
   .project-info {
     margin-top: -130px;
     margin-right: 200px;
+  }
+
+  .project-info2,
+  .project-info4 {
+    margin-top: -130px;
+    margin-right: -100px;
   }
 
   .paragraph {
@@ -641,4 +664,153 @@ button {
   .rev-4 {
     flex-direction: row-reverse;
   }
+
+  .contact-form {
+    background-image: url('images/contact_backgrpund.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #396df2;
+    border-top-left-radius: 120px;
+    margin-top: -270px;
+  }
+
+  .footer-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+  }
+
+  #text-footer {
+    width: 569px;
+    height: 102px;
+    /* margin-left: 350px; */
+    text-align: center;
+  }
+
+  input {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    width: 447px;
+    height: 48px;
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+
+  textarea {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    width: 447px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+
+  button.contact-btn {
+    margin-left: 210px;
+  }
+
+  .contact {
+    margin-left: -20px;
+  }
+
+  h2 {
+    /* margin-left: 18px; */
+    margin-top: -80px;
+  }
+
+  .connect-social {
+    margin-top: 1px;
+    margin-left: 7px;
+  }
+
+  .connect-headline {
+    padding-left: 20px;
+  }
 }
+
+@media (min-width: 960px) {
+  .about {
+    padding: 100px 0 0 0;
+    min-height: auto;
+  }
+
+  .desk_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    margin: 0 50px 0 50px;
+  }
+
+  .left {
+    width: 30%;
+    margin-top: 93px;
+  }
+
+  .right {
+    width: 70%;
+    height: 924px;
+    margin-left: 150px;
+  }
+
+  /* .programming-skills {
+    margin: 0;
+    width: 100%;
+  } */
+
+  .languages-list {
+    display: flex;
+    gap: 10px;
+    margin-left: -44px;
+  }
+
+  .lang-skills {
+    flex-direction: column;
+    min-height: 120px;
+    width: 122px;
+    gap: 0;
+    justify-items: left;
+  }
+
+  .A-title {
+    padding: 0;
+  }
+
+  .social-media  {
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .social-media a {
+    padding: 0;
+  }
+
+  a.btn {
+    margin-left: -22px;
+  }
+
+  li.languages {
+    justify-content: space-between;
+  }
+
+  li.skill-sets {
+    justify-content: space-between;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  #langImag {
+    margin-right: 60px;
+  }
+
+  h4 {
+    margin-right: 45px;
+  }
+}
+ 
