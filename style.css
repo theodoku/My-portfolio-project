@@ -83,7 +83,7 @@ p {
   padding-left: 20px;
 }
 
-.info-head1{
+.info-head1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -93,7 +93,7 @@ p {
   height: 146px;
 }
 
-.info-head2{
+.info-head2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -593,7 +593,7 @@ button {
   h1 {
     width: auto;
     margin: 0;
-  } 
+  }
 
   p {
     margin: 0;
@@ -609,13 +609,14 @@ button {
     height: 102px;
     margin-left: -22px;
   }
-  .social-media  {
+
+  .social-media {
     margin-top: -100px;
   }
 
   .logo {
-   font-size: x-large;
-   margin-left: -350px;
+    font-size: x-large;
+    margin-left: -350px;
   }
 
   .cards {
@@ -653,10 +654,12 @@ button {
     width: 544px;
     height: 448px;
   }
+
   .portfolio-pic2,
   .portfolio-pic4 {
     width: 544px;
     height: 448px;
+
     /* float: right; */
   }
 
@@ -684,6 +687,7 @@ button {
   #text-footer {
     width: 569px;
     height: 102px;
+
     /* margin-left: 350px; */
     text-align: center;
   }
@@ -780,7 +784,7 @@ button {
     padding: 0;
   }
 
-  .social-media  {
+  .social-media {
     margin-top: 20px;
     padding: 0;
   }
@@ -813,4 +817,3 @@ button {
     margin-right: 45px;
   }
 }
- 
