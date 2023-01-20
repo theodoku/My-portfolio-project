@@ -623,8 +623,14 @@ button {
   .logo {
     font-size: x-large;
     margin-left: -350px;
+    animation: rotatelogo 1s linear;
   }
-
+  
+  @keyframes rotatelogo {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
   .cards {
     flex-direction: row;
     gap: 50px;
@@ -659,14 +665,30 @@ button {
   .portfolio-pic {
     width: 544px;
     height: 448px;
+    transition: box-shadow 0.2s ease-out;
+  }
+
+  .portfolio-pic:hover {
+    box-shadow: 0 2px 10px -1px rgb(0 0 0 / 80%);
+    border-radius: 16px;
   }
 
   .portfolio-pic2,
   .portfolio-pic4 {
     width: 544px;
     height: 448px;
-
+    transition: box-shadow 0.2s ease-out;
     /* float: right; */
+  }
+
+  .portfolio-pic2:hover {
+    box-shadow: 0 2px 10px -1px rgb(0 0 0 / 80%);
+    border-radius: 16px
+  }
+
+  .portfolio-pic4:hover {
+    box-shadow: 0 2px 10px -1px rgb(0 0 0 / 80%);
+    border-radius: 16px;
   }
 
   .rev-2,
@@ -706,11 +728,15 @@ button {
     height: 48px;
     margin-top: 25px;
     margin-left: 60px;
+    transition: all 0.5s linear;
   }
 
   input:hover,
   input:focus {
-    transform: translateX(10%);
+    width: 550px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 0;
   }
 
   textarea {
@@ -721,11 +747,15 @@ button {
     height: 170px;
     margin-top: 30px;
     margin-left: 60px;
+    transition: all 0.5s linear;
   }
 
   textarea:hover,
   textarea:focus {
-    transform: translateX(10%);
+    width: 550px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 0;
   }
 
   button.contact-btn {
@@ -767,12 +797,12 @@ button {
   }
 
   .left {
-    width: 30%;
+    width: 35%;
     margin-top: 93px;
   }
 
   .right {
-    width: 70%;
+    width: 65%;
     height: 924px;
     margin-left: 150px;
   }

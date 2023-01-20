@@ -122,6 +122,18 @@ git clone https://github.com/theodoku/Hello_Project
 - Twitter: [@twitterhandle](https://twitter.com/dok_theo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Theophilusdoku)
 
+👤 **Author2**
+
+- GitHub: [@supreeti](https://github.com/supreeti)
+- Twitter: [@Ksupreeti](https://twitter.com/Ksupreeti)
+- LinkedIn: [Supreeti](https://linkedin.com/in/Supreeti)
+
+👤 **Author3**
+
+- GitHub:https://github.com/mumo-esther/mumo-esther
+- Twitter:https://twitter.com/EstherMawioo
+- LinkedIn: https://www.linkedin.com/in/esther-mawioo-58b636225/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
