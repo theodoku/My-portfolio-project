@@ -708,6 +708,11 @@ button {
     margin-left: 60px;
   }
 
+  input:hover,
+  input:focus {
+    transform: translateX(10%);
+  }
+
   textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
@@ -716,6 +721,11 @@ button {
     height: 170px;
     margin-top: 30px;
     margin-left: 60px;
+  }
+
+  textarea:hover,
+  textarea:focus {
+    transform: translateX(10%);
   }
 
   button.contact-btn {
