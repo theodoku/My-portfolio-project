@@ -532,6 +532,7 @@ button {
 .contact-btn:active {
   background: #172b4d;
   color: #fff;
+  transition: all 1s ease 0.5s;
 }
 
 .nav_wrapper {
