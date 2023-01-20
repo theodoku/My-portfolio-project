@@ -625,12 +625,13 @@ button {
     margin-left: -350px;
     animation: rotatelogo 1s linear;
   }
-  
+
   @keyframes rotatelogo {
     100% {
       transform: rotate(360deg);
     }
   }
+
   .cards {
     flex-direction: row;
     gap: 50px;
@@ -678,12 +679,13 @@ button {
     width: 544px;
     height: 448px;
     transition: box-shadow 0.2s ease-out;
+
     /* float: right; */
   }
 
   .portfolio-pic2:hover {
     box-shadow: 0 2px 10px -1px rgb(0 0 0 / 80%);
-    border-radius: 16px
+    border-radius: 16px;
   }
 
   .portfolio-pic4:hover {
