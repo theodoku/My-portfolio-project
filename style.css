@@ -301,12 +301,14 @@ img.dot {
   background: #6070ff;
   color: white;
   cursor: pointer;
+  transition: all 2s ease 0.5s;
 }
 
 .buttons:active {
   background: navy;
   color: #fff;
   cursor: pointer;
+  transition: all 2s ease 0.5s;
 }
 
 .buttons:disabled {
@@ -358,12 +360,14 @@ img.dot {
   background: #6070ff;
   color: white;
   cursor: pointer;
+  transition: all 2s ease 0.5s;
 }
 
 .btn:active {
   background: navy;
   color: #fff;
   cursor: pointer;
+  transition: all 2s ease 0.5s;
 }
 
 .btn:disabled {
@@ -527,6 +531,7 @@ button {
 .contact-btn:hover {
   background: #7a869a;
   color: #fff;
+  transition: all 2s ease 0.5s;
 }
 
 .contact-btn:active {
