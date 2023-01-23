@@ -82,7 +82,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming Soon!]
+- [https://theodoku.github.io/My-portfolio-project/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
