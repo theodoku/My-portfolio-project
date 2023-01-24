@@ -352,8 +352,8 @@
             <form action="https://formspree.io/f/meqdvkdq" id="form" method="Post">
                 <ul class="list">
                   <li class="listInput">
-                    <label>
-                      <input
+                    <label for="name">
+                      <input id="name"
                         type="text"
                         name="Name"
                         placeholder="Full Name"
@@ -362,8 +362,8 @@
                     /></label>
                   </li>
                   <li class="listInput">
-                    <label>
-                      <input
+                    <label for="email">
+                      <input id="email"
                         type="email"
                         name="Email"
                         placeholder="Email"
@@ -372,12 +372,14 @@
                     </label>
                   </li>
                   <li class="listInput">
+                    <label>
                     <textarea
                       name="Message"
                       placeholder="Write your message here"
                       maxlength="500"
                       required
                     ></textarea>
+                  </label>
                   </li>
                   <div id="error"></div>
                   <li class="button">
