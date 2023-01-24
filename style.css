@@ -110,10 +110,6 @@ p {
   height: 146px;
 }
 
-/* .social-media {
-    padding: 0;
-} */
-
 .social-media a {
   padding: 10px 20px 20px 20px;
   width: 117px;
@@ -143,7 +139,9 @@ p {
 .cards {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+
   /* width: 100%; */
+
   /* min-height: 90%; */
   padding: 16px;
   margin: 0 24px;
@@ -594,6 +592,7 @@ button {
     background-size: contain;
     width: 100%;
     min-height: 100vh;
+
     /* padding: 22px; */
   }
 
@@ -624,10 +623,6 @@ button {
     margin-left: -22px;
   }
 
-  .social-media {
-    margin-top: -100px;
-  }
-
   .logo {
     font-size: x-large;
     margin-left: -350px;
@@ -641,6 +636,7 @@ button {
     align-items: center;
     width: 80%;
     margin: 0 auto;
+
     /* padding: 24px; */
   }
 
@@ -833,6 +829,7 @@ button {
   .social-media {
     margin-top: 20px;
     padding: 0;
+    /* margin-top: -100px; */
   }
 
   .social-media a {
@@ -865,5 +862,5 @@ button {
 }
 
 /* @media (min-width: 960px) {
- 
+
 } */
