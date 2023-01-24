@@ -4,6 +4,13 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background: #f7f7f9;
+  overflow-x: hidden;
+}
+
+@keyframes rotatelogo {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 a {
@@ -28,7 +35,7 @@ h1 {
   height: 150px;
 }
 
-h4 {
+#lang {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -103,10 +110,6 @@ p {
   height: 146px;
 }
 
-/* .social-media {
-    padding: 0;
-} */
-
 .social-media a {
   padding: 10px 20px 20px 20px;
   width: 117px;
@@ -136,7 +139,10 @@ p {
 .cards {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  min-height: 90%;
+
+  /* width: 100%; */
+
+  /* min-height: 90%; */
   padding: 16px;
   margin: 0 24px;
   background-color: white;
@@ -586,7 +592,8 @@ button {
     background-size: contain;
     width: 100%;
     min-height: 100vh;
-    padding: 22px;
+
+    /* padding: 22px; */
   }
 
   .container {
@@ -616,20 +623,10 @@ button {
     margin-left: -22px;
   }
 
-  .social-media {
-    margin-top: -100px;
-  }
-
   .logo {
     font-size: x-large;
     margin-left: -350px;
     animation: rotatelogo 1s linear;
-  }
-
-  @keyframes rotatelogo {
-    100% {
-      transform: rotate(360deg);
-    }
   }
 
   .cards {
@@ -639,7 +636,8 @@ button {
     align-items: center;
     width: 80%;
     margin: 0 auto;
-    padding: 24px;
+
+    /* padding: 24px; */
   }
 
   .p-title {
@@ -679,8 +677,6 @@ button {
     width: 544px;
     height: 448px;
     transition: box-shadow 0.2s ease-out;
-
-    /* float: right; */
   }
 
   .portfolio-pic2:hover {
@@ -781,9 +777,7 @@ button {
   .connect-headline {
     padding-left: 20px;
   }
-}
 
-@media (min-width: 960px) {
   .about {
     padding: 100px 0 0 0;
     min-height: auto;
@@ -799,12 +793,12 @@ button {
   }
 
   .left {
-    width: 35%;
+    width: 50%;
     margin-top: 93px;
   }
 
   .right {
-    width: 65%;
+    width: 50%;
     height: 924px;
     margin-left: 150px;
   }
@@ -835,6 +829,8 @@ button {
   .social-media {
     margin-top: 20px;
     padding: 0;
+
+    /* margin-top: -100px; */
   }
 
   .social-media a {
@@ -861,7 +857,11 @@ button {
     margin-right: 60px;
   }
 
-  h4 {
-    margin-right: 45px;
+  #lang {
+    margin-right: 92px;
   }
 }
+
+/* @media (min-width: 960px) {
+
+} */
