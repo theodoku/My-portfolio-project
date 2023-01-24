@@ -6,6 +6,12 @@ body {
   background: #f7f7f9;
 }
 
+@keyframes rotatelogo {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -624,12 +630,6 @@ button {
     font-size: x-large;
     margin-left: -350px;
     animation: rotatelogo 1s linear;
-  }
-
-  @keyframes rotatelogo {
-    100% {
-      transform: rotate(360deg);
-    }
   }
 
   .cards {
