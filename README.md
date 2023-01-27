@@ -83,6 +83,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [https://theodoku.github.io/My-portfolio-project/]
+- [https://www.loom.com/share/edce9719c8cc42a8a674121b8bb7fcef]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
