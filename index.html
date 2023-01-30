@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body id="body">
     <!-- Header -->
     <header class="header">
             <a href="#" class="logo">
@@ -30,13 +30,13 @@
                     </button>
                 </div>
                 <ul class="nav_wrapper">
-                    <li class="nav_item">
+                    <li class="nav_item" onclick="closeMobileMenu()">
                       <a href="#portfolio" class="nav_link"> Portfolio </a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav_item" onclick="closeMobileMenu()" >
                       <a href="#about" class="nav_link"> About </a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav_item" onclick="closeMobileMenu()" >
                       <a href="#contact" class="nav_link"> Contact </a>
                     </li>
                 </ul>
@@ -399,5 +399,6 @@
             </form> 
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
