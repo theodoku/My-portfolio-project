@@ -552,6 +552,7 @@ button {
   align-items: center;
   height: 3rem;
   align-content: center;
+
   /* margin-left: 15px;
   margin-right: 15px; */
 }
@@ -606,6 +607,7 @@ button {
   color: #fff;
   line-height: 44px;
 }
+
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
@@ -620,9 +622,9 @@ button {
     display: none;
   }
 
-   button.close-btn {
+  button.close-btn {
     display: none;
-   }
+  }
 
   .navigation {
     display: contents !important;
