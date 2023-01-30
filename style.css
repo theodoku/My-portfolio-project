@@ -546,10 +546,57 @@ button {
   transition: all 1s ease 0.5s;
 }
 
-.nav_wrapper {
+.navigation {
   display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(96, 112, 255);
+  background-color: rgb(96, 112, 255, 0.95);
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(15px);
 }
 
+.btn-wrapper {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.close-btn {
+  border: none;
+  cursor: pointer;
+  width: 45px;
+  outline: none;
+  background: none;
+}
+
+.nav_wrapper {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  width: 80%;
+  z-index: 100;
+}
+
+.nav_item {
+  padding: 20px 12px;
+}
+
+.nav_link {
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+  line-height: 44px;
+}
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
