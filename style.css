@@ -587,13 +587,11 @@ button {
 
   .headline {
     background-image: url('images/desktop_bg.png');
-    background-position: left;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     width: 100%;
     min-height: 100vh;
-
-    /* padding: 22px; */
   }
 
   .container {
@@ -636,18 +634,10 @@ button {
     align-items: center;
     width: 80%;
     margin: 0 auto;
-
-    /* padding: 24px; */
   }
 
   .p-title {
-    /* margin-top: -46%; */
     margin-left: -5px;
-  }
-
-  .project-info {
-    margin-top: -130px;
-    margin-right: 200px;
   }
 
   .project-info2,
@@ -657,13 +647,13 @@ button {
   }
 
   .paragraph {
-    width: 496px;
+    width: 450px;
     height: 50px;
   }
 
   .portfolio-pic {
-    width: 544px;
-    height: 448px;
+    width: 395px;
+    height: 365px;
     transition: box-shadow 0.2s ease-out;
   }
 
@@ -674,8 +664,8 @@ button {
 
   .portfolio-pic2,
   .portfolio-pic4 {
-    width: 544px;
-    height: 448px;
+    width: 395px;
+    height: 365px;
     transition: box-shadow 0.2s ease-out;
   }
 
@@ -713,8 +703,6 @@ button {
   #text-footer {
     width: 569px;
     height: 102px;
-
-    /* margin-left: 350px; */
     text-align: center;
   }
 
@@ -765,7 +753,6 @@ button {
   }
 
   h2 {
-    /* margin-left: 18px; */
     margin-top: -80px;
   }
 
@@ -803,11 +790,6 @@ button {
     margin-left: 150px;
   }
 
-  /* .programming-skills {
-    margin: 0;
-    width: 100%;
-  } */
-
   .languages-list {
     display: flex;
     gap: 10px;
@@ -829,8 +811,6 @@ button {
   .social-media {
     margin-top: 20px;
     padding: 0;
-
-    /* margin-top: -100px; */
   }
 
   .social-media a {
@@ -861,7 +841,3 @@ button {
     margin-right: 92px;
   }
 }
-
-/* @media (min-width: 960px) {
-
-} */
