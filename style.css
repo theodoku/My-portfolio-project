@@ -60,7 +60,7 @@ p {
 .hamburger-icon {
   width: 33px;
   height: 33px;
-  padding-top: 10px;
+  margin-left: 200px;
 }
 
 .header {
@@ -546,8 +546,18 @@ button {
   transition: all 1s ease 0.5s;
 }
 
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  align-content: center;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+}
+
 .navigation {
-  /* display: none; */
+  display: none;
   position: fixed;
   z-index: 1;
   padding-top: 50px;
@@ -578,17 +588,16 @@ button {
 
 .nav_wrapper {
   list-style: none;
-  padding: 0;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: auto;
+  align-items: center;
   width: 80%;
   z-index: 100;
 }
 
 .nav_item {
-  padding: 20px 12px;
+  padding: 50px 30px;
 }
 
 .nav_link {
@@ -603,26 +612,30 @@ button {
 
 @media (min-width: 769px) {
   .header {
-    padding: 15px 143px;
-    justify-content: space-around;
+    padding: 15px 422px;
+    width: auto;
   }
 
   .menu_btn {
     display: none;
   }
 
+   button.close-btn {
+    display: none;
+   }
+
+  .navigation {
+    display: contents !important;
+    background: none;
+  }
+
   .nav_wrapper {
-    display: flex;
-    list-style: none;
-    padding: 0;
     flex-direction: row;
-    align-items: center;
-    gap: 8px;
-    width: 0;
+    margin-left: 360px;
   }
 
   .nav_item {
-    padding: 10px 12px;
+    padding: 10px 10px;
   }
 
   .nav_link {
@@ -672,7 +685,7 @@ button {
 
   .logo {
     font-size: x-large;
-    margin-left: -350px;
+    margin-left: -250px;
     animation: rotatelogo 1s linear;
   }
 
