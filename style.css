@@ -138,10 +138,6 @@ p {
 .cards {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-
-  /* width: 100%; */
-
-  /* min-height: 90%; */
   padding: 16px;
   margin: 0 24px;
   background-color: white;
@@ -152,8 +148,6 @@ p {
 .project-name {
   color: #172b4d;
   margin-top: 12px;
-
-  /* font-size: 32px; */
   line-height: 40px;
   font-weight: 700;
   width: 295px;
@@ -280,8 +274,6 @@ img.dot {
   flex-direction: row;
   align-items: center;
   padding: 3px;
-
-  /* gap: 10px; */
   width: 150px;
   height: 48px;
   margin-top: 20px;
@@ -551,9 +543,6 @@ button {
   align-items: center;
   height: 3rem;
   align-content: center;
-
-  /* margin-left: 15px;
-  margin-right: 15px; */
 }
 
 .navigation {
@@ -574,16 +563,20 @@ button {
 
 .btn-wrapper {
   position: fixed;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 15px;
 }
 
 .close-btn {
   border: none;
   cursor: pointer;
-  width: 45px;
   outline: none;
   background: none;
+}
+
+.close {
+  width: 15px;
+  height: 15px;
 }
 
 .nav_wrapper {
@@ -591,13 +584,12 @@ button {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 80%;
   z-index: 100;
 }
 
 .nav_item {
-  padding: 50px 30px;
+  padding: 17px 10px;
 }
 
 .nav_link {
@@ -653,8 +645,6 @@ button {
     background-size: contain;
     width: 100%;
     min-height: 100vh;
-
-    /* padding: 22px; */
   }
 
   .container {
@@ -697,12 +687,9 @@ button {
     align-items: center;
     width: 80%;
     margin: 0 auto;
-
-    /* padding: 24px; */
   }
 
   .p-title {
-    /* margin-top: -46%; */
     margin-left: -5px;
   }
 
@@ -774,8 +761,6 @@ button {
   #text-footer {
     width: 569px;
     height: 102px;
-
-    /* margin-left: 350px; */
     text-align: center;
   }
 
@@ -826,7 +811,6 @@ button {
   }
 
   h2 {
-    /* margin-left: 18px; */
     margin-top: -80px;
   }
 
@@ -864,11 +848,6 @@ button {
     margin-left: 150px;
   }
 
-  /* .programming-skills {
-    margin: 0;
-    width: 100%;
-  } */
-
   .languages-list {
     display: flex;
     gap: 10px;
@@ -890,8 +869,6 @@ button {
   .social-media {
     margin-top: 20px;
     padding: 0;
-
-    /* margin-top: -100px; */
   }
 
   .social-media a {
@@ -922,7 +899,3 @@ button {
     margin-right: 92px;
   }
 }
-
-/* @media (min-width: 960px) {
-
-} */
