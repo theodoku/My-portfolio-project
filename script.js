@@ -8,7 +8,6 @@ const longDes = document.getElementById('des');
 const live = document.getElementById('live');
 const source = document.getElementById('source');
 
-
 const cards = [
   {
     pTitle: 'Tonic',
@@ -108,7 +107,7 @@ const closeModal = () => {
 openModal();
 closeModal();
 
-// function for MobileMenu 
+// function for MobileMenu
 function openMobileMenu() {
   nav.style.display = 'block';
 }
