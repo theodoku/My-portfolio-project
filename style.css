@@ -602,7 +602,7 @@ button {
 /* ----MODAL POPUP SECTION---- */
 
 .modal-popup {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 1;
   width: 100%;
