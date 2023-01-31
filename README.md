@@ -34,13 +34,14 @@
 
 # 📖 [My Portfolio-Project] <a name="about-project"></a>
 
-
-**[My Portfolio-Project]** is a project to build  my portfolio projects to showcase to the world.
+**[My Portfolio-Project]** is a project to build my portfolio projects to showcase to the world.
 
 ## 🛠 Built With <a name="built-with"></a>
+
 - [HTML]
 - [CSS]
-<!-- 
+<!--
+
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
@@ -66,19 +67,19 @@
   </ul>
 </details> -->
 
-<!-- Features -->
+Features
 
-<!-- ### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
 - **[Mobile-Version]**
 - **[Desktop-Version]**
-- **[Popup-Section]**
+- **[Mobile-Menu-Popup]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -95,7 +96,6 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need to install npm and node.js
-
 
 ### Setup
 
@@ -140,7 +140,6 @@ git clone https://github.com/theodoku/Hello_Project
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
 - [Desktop Version] **[new_feature_1]**
 - [Mobile Popup] **[new_feature_2]**
 
@@ -171,7 +170,8 @@ If you like this project please follow me on github and reach out on my handles.
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank MicroverseInc for:
- - [Figma template]
+
+- [Figma template]
 - [HTML & CSS Linters Setup]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

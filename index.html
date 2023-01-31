@@ -13,27 +13,31 @@
     />
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body id="body">
     <!-- Header -->
     <header class="header">
-
-            <a href="#" class="logo">
-                Sozo
-            </a>
-
-            <nav>
-                <button class="menu_btn" type="button">
+            <div class="header_wrapper">
+                <a href="#" class="logo">
+                    Sozo
+                </a>
+                <button class="menu_btn" type="button" onclick="openMobileMenu()">
                     <img src="images/menu.png" class="hamburger-icon"   alt="menu-button">
                 </button>
-
+            </div>
+            <nav class="navigation" id="nav">
+                <div class="btn-wrapper">
+                    <button class="close-btn" type="button" onclick="closeMobileMenu()">
+                        <img src="images/closeBtn.png" class="close"  alt="menu-button">
+                    </button>
+                </div>
                 <ul class="nav_wrapper">
-                    <li class="nav_item">
+                    <li class="nav_item" onclick="closeMobileMenu()">
                       <a href="#portfolio" class="nav_link"> Portfolio </a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav_item" onclick="closeMobileMenu()" >
                       <a href="#about" class="nav_link"> About </a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav_item" onclick="closeMobileMenu()" >
                       <a href="#contact" class="nav_link"> Contact </a>
                     </li>
                 </ul>
@@ -396,5 +400,6 @@
             </form> 
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
