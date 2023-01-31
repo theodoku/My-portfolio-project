@@ -59,8 +59,23 @@ const cards = [
   },
 ];
 
+const openModal = (index) => {
+  title.innerHTML = cards[index].title;
+  image.src = cards[index].image;
+  longDes.innerHTML = cards[index].longDes;
+  live.href = cards[index].live;
+  source.href = cards[index].source;
+  modal.style.display = 'block';
+  body.style.overflow = 'hidden';
+};
 
+const closeModal = () => {
+  modal.style.display = 'none';
+  body.style.overflow = 'auto';
+};
 
+openModal();
+closeModal();
 
 // function for MobileMenu 
 function openMobileMenu() {
