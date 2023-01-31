@@ -153,16 +153,36 @@ p {
   width: 295px;
 }
 
+.dot-0 {
+  width: 8px;
+  height: 8px;
+}
+
+.dot-1 {
+  width: 8px;
+  height: 8px;
+}
+
+.dot-2 {
+  display: none;
+}
+
 .p-title {
   font-size: 32px;
 }
 
 .p-info {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
   gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.role p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #485060;
 }
 
 ul li {
@@ -183,8 +203,48 @@ ul li {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
-  width: 55px;
-  height: 16px;
+}
+
+.company p {
+  display: flex;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #485060;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.languagesj {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.langu {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #0018f0;
+}
+
+.button-container {
+  margin-top: 30px;
+  margin-bottom: 12px;
 }
 
 .position {
@@ -217,7 +277,8 @@ img.dot {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  width: 295px;
+
+  /* width: 295px; */
 }
 
 .web-lang {
@@ -599,6 +660,117 @@ button {
   line-height: 44px;
 }
 
+/* ----MODAL POPUP SECTION---- */
+
+.modal-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.modal_container {
+  background-color: #fff;
+  width: 85%;
+  margin: 10px auto;
+  padding: 0 16px;
+  border-radius: 16px;
+  overflow: auto;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.modal_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.modal_btn_wrapper {
+  width: 24px;
+  margin-top: 12px;
+}
+
+.modal_close_btn {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.info_modal {
+  display: flex;
+  gap: 13px;
+  margin-top: 10px;
+  list-style-type: none;
+  align-items: baseline;
+}
+
+ul.info_modal {
+  margin-left: -35px;
+}
+
+.modal-imag {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#modal-im {
+  width: 100%;
+}
+
+.modal_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_description p {
+  padding: 0;
+  font-size: 15px;
+  color: #344563;
+  line-height: 24px;
+}
+
+.modal_languages {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.modal_btns {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.modal_btn {
+  align-items: center;
+  width: 150px;
+}
+
+.modalBtn {
+  display: flex;
+  align-items: center;
+  height: 25px !important;
+  gap: 5px;
+  justify-content: center;
+}
+
+#text_modal {
+  font-size: 1.5rem;
+}
+
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
@@ -663,6 +835,22 @@ button {
     margin: 0;
   }
 
+  .p-info {
+    margin-left: -20px;
+  }
+
+  .description p {
+    margin-left: -20px;
+  }
+
+  .languagesj {
+    margin-left: -20px;
+  }
+
+  h2#p-title {
+    margin-left: -20px;
+  }
+
   .info-head1 {
     width: auto;
     margin-top: -20px;
@@ -674,6 +862,12 @@ button {
     margin-left: -22px;
   }
 
+  div.project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
   .logo {
     font-size: x-large;
     margin-left: -250px;
@@ -682,11 +876,12 @@ button {
 
   .cards {
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    padding: 24px;
   }
 
   .p-title {
@@ -710,8 +905,6 @@ button {
   }
 
   .portfolio-pic {
-    width: 544px;
-    height: 448px;
     transition: box-shadow 0.2s ease-out;
   }
 
@@ -722,8 +915,6 @@ button {
 
   .portfolio-pic2,
   .portfolio-pic4 {
-    width: 544px;
-    height: 448px;
     transition: box-shadow 0.2s ease-out;
   }
 
@@ -737,9 +928,20 @@ button {
     border-radius: 16px;
   }
 
-  .rev-2,
-  .rev-4 {
+  .rev-1 {
     flex-direction: row-reverse;
+  }
+
+  .rev-1 div.project-content {
+    margin-left: 20px;
+  }
+
+  .rev-3 {
+    flex-direction: row-reverse;
+  }
+
+  .rev-3 div.project-content {
+    margin-left: 20px;
   }
 
   .contact-form {
@@ -810,9 +1012,9 @@ button {
     margin-left: -20px;
   }
 
-  h2 {
+  /* h2 {
     margin-top: -80px;
-  }
+  } */
 
   .connect-social {
     margin-top: 1px;
@@ -897,5 +1099,41 @@ button {
 
   #lang {
     margin-right: 92px;
+  }
+
+  .modal_content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+  .modal_description {
+    margin-bottom: 50px;
+    width: 778px;
+  }
+
+  .modal-img {
+    margin: 28px auto 59px auto;
+  }
+
+  .modal_btns {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+    margin-top: 10px;
+  }
+
+  p#des.text_modal {
+    margin-top: 40px;
+  }
+
+  ul.web-lang {
+    margin-top: 40px;
+    margin-left: -20px;
+  }
+
+  .modal_container {
+    width: 70%;
   }
 }
