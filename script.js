@@ -7,6 +7,10 @@ const image = document.getElementById('modal-im');
 const longDes = document.getElementById('des');
 const live = document.getElementById('live');
 const source = document.getElementById('source');
+const contact = document.getElementById('contact');
+const email = document.getElementById('email');
+const error = document.getElementById('error');
+
 
 const cards = [
   {
@@ -106,6 +110,10 @@ const closeModal = () => {
 
 openModal();
 closeModal();
+
+// code for form validation
+
+
 
 // function for MobileMenu
 function openMobileMenu() {

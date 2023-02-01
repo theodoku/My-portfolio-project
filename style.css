@@ -771,6 +771,9 @@ ul.info_modal {
   font-size: 1.5rem;
 }
 
+#error {
+  color: #f00;
+}
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
