@@ -524,11 +524,10 @@ hr {
   margin-bottom: 12px;
 }
 
-#form-container {
+#form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 25px auto;
 }
 
 #text-footer {
@@ -772,10 +771,10 @@ ul.info_modal {
 }
 
 #error {
+  display: grid;
   color: red;
   width: 300px;
   text-align: center;
-  margin: 0 auto;
 }
 
 /* ----MEDIA QUERIES SECTION---- */
@@ -1142,5 +1141,9 @@ ul.info_modal {
 
   .modal_container {
     width: 70%;
+  }
+
+  #error {
+   margin: auto;
   }
 }
