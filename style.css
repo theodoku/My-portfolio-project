@@ -772,7 +772,10 @@ ul.info_modal {
 }
 
 #error {
-  color: #f00;
+  color: red;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
 }
 /* ----MEDIA QUERIES SECTION---- */
 
