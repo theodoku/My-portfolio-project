@@ -7,10 +7,9 @@ const image = document.getElementById('modal-im');
 const longDes = document.getElementById('des');
 const live = document.getElementById('live');
 const source = document.getElementById('source');
-const contact = document.getElementById('contact');
+const form = document.getElementById('form');
 const email = document.getElementById('email');
 const error = document.getElementById('error');
-
 
 const cards = [
   {
@@ -63,8 +62,19 @@ const cards = [
   },
 ];
 
-// eslint-disable-next-line no-return-assign
-cards.map((card, index) => pcard.innerHTML += `<div class="cards  rev-${index}">
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (email.value !== email.value.toLowerCase()) {
+    error.textContent = 'Please the content of the email field has to be in lower case.';
+  } else {
+    error.textContent = '';
+    form.submit();
+  }
+});
+
+cards.forEach((card, index) => {
+  pcard.innerHTML += `<div class="cards  rev-${index}">
         <div class="project-image">
           <img src="${card.image}" class="portfolio-pic   alt="Tonic" />
         </div>
@@ -91,7 +101,8 @@ cards.map((card, index) => pcard.innerHTML += `<div class="cards  rev-${index}">
             </div>
         </div>
       </div>
-      `);
+      `;
+});
 
 const openModal = (index) => {
   title.innerHTML = cards[index].pTitle;
@@ -110,18 +121,6 @@ const closeModal = () => {
 
 openModal();
 closeModal();
-
-// code for form validation
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  if (email.value !== email.value.toLowerCase()) {
-    error.textContent = 'Please the content of the email field has to be in lower case.';
-  } else {
-    error.textContent = '';
-    form.submit();
-  }
- });
 
 // function for MobileMenu
 function openMobileMenu() {
