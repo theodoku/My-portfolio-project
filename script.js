@@ -10,6 +10,8 @@ const source = document.getElementById('source');
 const form = document.getElementById('form');
 const email = document.getElementById('email');
 const error = document.getElementById('error');
+const fname = document.getElementById('fname');
+const message = document.getElementById('msg');
 
 const cards = [
   {
@@ -62,6 +64,41 @@ const cards = [
   },
 ];
 
+function openMobileMenu() {
+  nav.style.display = 'block';
+}
+
+function closeMobileMenu() {
+  nav.style.display = 'none';
+}
+
+openMobileMenu();
+closeMobileMenu();
+
+function getFormData() {
+  const formData = {
+    fname: fname.value,
+    message: message.value,
+    email: email.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function persistData() {
+  if (!localStorage.getItem('formData')) {
+    getFormData();
+  } else {
+    const fetchData = JSON.parse(localStorage.getItem('formData'));
+    fname.setAttribute('value', fetchData.fname);
+    email.setAttribute('value', fetchData.email);
+    message.textContent = fetchData.message;
+  }
+}
+
+window.onload = () => {
+  persistData();
+};
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -72,6 +109,10 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+fname.addEventListener('change', getFormData);
+email.addEventListener('change', getFormData);
+message.addEventListener('change', getFormData);
 
 cards.forEach((card, index) => {
   pcard.innerHTML += `<div class="cards  rev-${index}">
@@ -121,15 +162,3 @@ const closeModal = () => {
 
 openModal();
 closeModal();
-
-// function for MobileMenu
-function openMobileMenu() {
-  nav.style.display = 'block';
-}
-
-function closeMobileMenu() {
-  nav.style.display = 'none';
-}
-
-openMobileMenu();
-closeMobileMenu();
