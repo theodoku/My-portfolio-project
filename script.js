@@ -62,6 +62,28 @@ const cards = [
   },
 ];
 
+// code for local storage
+function getFormData() {
+  const formData = {
+    fname: fname.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function persistData() {
+  if (!localStorage.getItem('formData')) {
+    getFormData();
+  } else {
+    const fetchData = JSON.parse(localStorage.getItem('formData'));
+    fname.setAttribute('value', fetchData.fname);
+    email.setAttribute('value', fetchData.email);
+    message.textContent = fetchData.message;
+  }
+}
+
+// code for form validation
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
