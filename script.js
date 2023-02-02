@@ -75,7 +75,6 @@ function closeMobileMenu() {
 openMobileMenu();
 closeMobileMenu();
 
-
 function getFormData() {
   const formData = {
     fname: fname.value,
@@ -114,7 +113,6 @@ form.addEventListener('submit', (e) => {
 fname.addEventListener('change', getFormData);
 email.addEventListener('change', getFormData);
 message.addEventListener('change', getFormData);
-
 
 cards.forEach((card, index) => {
   pcard.innerHTML += `<div class="cards  rev-${index}">
@@ -164,4 +162,3 @@ const closeModal = () => {
 
 openModal();
 closeModal();
-
